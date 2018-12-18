@@ -1,0 +1,11 @@
+server:
+  port: 9090
+
+spring:
+  data:
+    mongodb:
+      database: authoritydb
+      host: 127.0.0.1
+      port: 12345
+  thymeleaf:
+    prefix: classpath:/static/
